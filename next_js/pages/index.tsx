@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
+import {Head} from "next/document";
+import {FC, useEffect, useState} from "react";
 
 
-const Home: NextPage = () => {
-  return (
+const Home = () => {
+    return (
       <div>
-        Hello world
+         <span> Hello world </span>
       </div>
   )
 
